@@ -63,7 +63,7 @@ function App() {
                 <Button variant="danger"  size="sm" onClick={() => deleteTodo(todo.id)}>Delete</Button>
                 {' '}
                 <Button
-                  variant= {todo.status ? "warning" : "success"}
+                  variant= {todo.status ? "secondary" : "success"}
                   size="sm"
                   onClick={() => toggleTodo(todo.id)}
                 >{ todo.status ? "Undo" : "Done"}</Button>
